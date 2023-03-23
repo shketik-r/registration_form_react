@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <Routes>
         <Route element={<PrivateRounter />}>
-          <Route path="/" element={<HomePage name={"Gogi"} />} />
+          <Route path="/" element={<HomePage name={"Gimm"} />} />
         </Route>
 
         <Route path="/regist" element={<RegistPage />} />
