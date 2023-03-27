@@ -1,0 +1,21 @@
+.submit {
+  cursor: pointer;
+  margin: 0 auto;
+  padding: 0.5rem 3rem;
+
+  border: 0.02rem solid rgb(62, 62, 245);
+  border-radius: 0.9rem;
+  background-color: rgb(62, 62, 245);
+  box-shadow: 0.16rem 5px 10px 0px rgb(145, 144, 144);
+  color: aliceblue;
+  font-weight: 700;
+
+  
+  &:hover {
+    background-color: rgb(44, 44, 247);
+  }
+
+  &:active {
+    box-shadow: none;
+  }
+}

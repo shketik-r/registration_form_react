@@ -1,0 +1,44 @@
+.modal {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  padding: 1.1rem;
+  margin: 0.5rem;
+  border-radius: 0.8rem;
+  border: solid 0.1rem gray;
+  background-color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  opacity: 0;
+  animation: fade 1s linear forwards;
+}
+
+@keyframes fade {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+img{
+    width: 10rem;
+    height: 10rem;
+}
+
+.none{
+    display: none;
+}

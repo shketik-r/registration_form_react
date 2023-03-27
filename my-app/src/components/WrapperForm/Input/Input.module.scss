@@ -1,0 +1,32 @@
+.wrapper {
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.input {
+  width: 100%;
+  height: 2rem;
+  text-align: center;
+  border-bottom: 1px solid #adadad;
+  color: #111111;
+  font-size: 0.875rem;
+  line-height: 1rem;
+}
+
+.label {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  color: grey;
+}
+
+.error {
+  position: absolute;
+
+  left: 0;
+  font-size: 0.7rem;
+  color: red;
+}
+
+.red {
+  border-bottom: 0.15rem solid red;
+}
