@@ -48,12 +48,7 @@ const WrapperForm = () => {
       showMessPassword === "" &&
       showMessConfirmPassword === ""
     ) {
-      let dataUser={
-        login,
-        email,
-        password
-      }
-
+   
       setModalActive(true);
     }
   };
